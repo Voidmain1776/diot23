@@ -40,3 +40,22 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 
 :- nano calculator.py
 
+:- git add calculator.py // OR // git add -a
+
+
+#:- git log
+commit dea93ba77968db75b13f62101412d6ea96865311 (HEAD -> main)
+Author: Voidmain1776 <130166111+Voidmain1776@users.noreply.github.com>
+Date:   Sat Jul 29 18:59:04 2023 +0530
+
+    Initial commit
+
+
+#:- git commit -m "Developed the add function"
+[main b5193a3] Developed the add function
+ 2 files changed, 45 insertions(+)
+ create mode 100644 calculator.py
+ create mode 100644 cmd.txt
+
+
+:- 
