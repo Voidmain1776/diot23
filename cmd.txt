@@ -58,4 +58,29 @@ Date:   Sat Jul 29 18:59:04 2023 +0530
  create mode 100644 cmd.txt
 
 
+:- git push -u origin main
+Username for 'https://github.com': Voidmain1776    //Username
+Password for 'https://Voidmain1776@github.com':     // classic token key
+
+
+:- git checkout -b dev
+Switched to a new branch 'dev'
+
+:- git branch 
+* dev
+  main
+
+:- git push -u origin dev
+
+
+:- git merge dev
+Updating 4e83769..6caa289
+Fast-forward
+ calculator.py | 4 ++++
+ key.txt       | 1 +
+ 2 files changed, 5 insertions(+)
+ create mode 100644 key.txt
+
+
+
 :- 
