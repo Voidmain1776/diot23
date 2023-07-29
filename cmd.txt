@@ -1,0 +1,42 @@
+:- git status
+:- git init .
+
+# git pull <git-code-https-link>
+:- git pull https://github.com/Voidmain1776/diot23.git
+
+:- ls
+:- cat README.md
+
+:- git branch
+
+:- git config --global user.name Voidmain1776
+:- git config --global user.email nikhilchalke1776@gmail.com
+
+
+:- git config --list
+user.name=Voidmain1776
+user.email=nikhilchalke1776@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+
+
+:- git remote add origin https://github.com/Voidmain1776/diot23.git
+
+:- git config --list
+user.name=Voidmain1776
+user.email=nikhilchalke1776@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/Voidmain1776/diot23.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+:- git branch -m main  // from master to main
+:- git branch 
+* main
+
+:- nano calculator.py
+
